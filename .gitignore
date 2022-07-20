@@ -1,0 +1,38 @@
+**/vendor/**
+
+*.vscode
+.buildpath
+.metadata
+.project
+.settings
+
+
+.idea/*
+# But keep Entrata dictionary
+!.idea/dictionaries/entrata.xml
+
+Applications/*/phpunit.xml
+Applications/*/build
+
+TestSuite/UnitTests/*/phpunit.xml
+TestSuite/UnitTests/*/build
+
+# Vendored dependencies and composer.lock of package.
+/vendor/
+composer.lock
+
+# Build artifacts
+build/*
+**/build.tar.gz
+
+# PHP Archives
+*.phar
+
+# Ignore phpunit result caches
+*.phpunit.result.cache
+
+# Misc
+*.rnd
+
+# Mac filestore
+.DS_Store
